@@ -1,4 +1,4 @@
-# 🛒 Olist E-Commerce — End-to-End SQL & Business Intelligence Analysis
+# Olist E-Commerce — End-to-End SQL & Business Intelligence Analysis
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 
 ---
 
-## 📌 Business Problem
+## Business Problem
 
 Olist is Brazil's largest e-commerce marketplace, connecting 3,000+ small
 businesses to major retail channels across 27 states. As order volumes scaled
@@ -31,7 +31,7 @@ consulting operations and supply chain engagements.
 
 ---
 
-## 🔑 Key Findings (From Real Query Outputs)
+## Key Findings (From Real Query Outputs)
 
 | # | Finding | Data Point |
 |---|---|---|
@@ -43,7 +43,7 @@ consulting operations and supply chain engagements.
 
 ---
 
-## 🗂️ Dataset Schema — 9 Relational Tables
+## Dataset Schema — 9 Relational Tables
 
 ```
 olist_orders ──────────────┬──── olist_order_items ──── olist_products
@@ -62,7 +62,7 @@ olist_orders ──────────────┬──── olist_ord
 
 ---
 
-## 📊 SQL Analysis — 18 Queries
+## SQL Analysis — 18 Queries
 
 ### Revenue & Growth (Q01–Q05)
 
@@ -108,7 +108,7 @@ olist_orders ──────────────┬──── olist_ord
 
 ---
 
-## 📈 Dashboards
+## Dashboards
 
 ### Power BI — 3 Pages *(In Progress)*
 - **Executive KPI Overview** — GMV trend, on-time delivery rate, MoM growth
@@ -116,11 +116,11 @@ olist_orders ──────────────┬──── olist_ord
 - **Customer & Category Intelligence** — RFM segments, review distribution, cohort grid
 
 ### Tableau Public *(In Progress)*
-🔗 **Dashboard link will be added here on completion**
+ **Dashboard link will be added here on completion**
 
 ---
 
-## 🐍 Python EDA *(In Progress)*
+## Python EDA *(In Progress)*
 
 Planned analyses in `notebooks/olist_eda.ipynb`:
 - Delivery delay distribution (histogram + KDE)
@@ -130,7 +130,7 @@ Planned analyses in `notebooks/olist_eda.ipynb`:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 olist-ecommerce-sql-analysis/
@@ -176,7 +176,7 @@ olist-ecommerce-sql-analysis/
 
 ---
 
-## ⚙️ How to Reproduce
+## How to Reproduce
 
 ```bash
 # 1. Clone the repository
@@ -202,7 +202,7 @@ python setup.py
 
 ---
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 **1. Prioritise GO, SC and RS seller corridors for logistics review**
 These states consistently score highest on the composite delay + review risk
@@ -221,7 +221,7 @@ would improve buyer experience without reducing seller diversity.
 
 ---
 
-## 🛠️ Tools & Skills Demonstrated
+## Tools & Skills Demonstrated
 
 | Category | Tools |
 |---|---|
@@ -233,7 +233,7 @@ would improve buyer experience without reducing seller diversity.
 
 ---
 
-## 👤 Author
+## Author
 
 **Mohil Garg**  
 B.Tech Mechanical Engineering · Delhi Technological University  
